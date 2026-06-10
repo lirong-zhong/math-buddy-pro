@@ -1,0 +1,675 @@
+{
+  "version": "3.0",
+  "formulas": [
+    {
+      "id": "FM-G6S-001",
+      "title": "圆周长",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "上",
+      "formula_text": "C = 2πr = πd",
+      "formula_html": "C = 2πr = πd",
+      "variables": {
+        "r": "半径",
+        "d": "直径",
+        "C": "周长"
+      },
+      "rules": [
+        "周长=直径×π",
+        "直径=2×半径"
+      ],
+      "example": "r=5cm → C=2×3.14×5=31.4cm",
+      "related_knowledge": [
+        "KN-G6S-002"
+      ],
+      "tip": "记住π≈3.14，周长=πd更简洁"
+    },
+    {
+      "id": "FM-G6S-002",
+      "title": "圆面积",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "上",
+      "formula_text": "S = πr²",
+      "formula_html": "S = πr<sup>2</sup>",
+      "variables": {
+        "r": "半径",
+        "S": "面积"
+      },
+      "rules": [
+        "面积=π×半径的平方",
+        "注意是半径不是直径"
+      ],
+      "example": "r=3cm → S=3.14×9=28.26cm²",
+      "related_knowledge": [
+        "KN-G6S-003"
+      ],
+      "tip": "常见错误：用直径代入忘记除2"
+    },
+    {
+      "id": "FM-G6X-001",
+      "title": "圆柱侧面积",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "下",
+      "formula_text": "S侧 = 2πrh",
+      "formula_html": "S<sub>侧</sub> = 2πrh",
+      "variables": {
+        "r": "底面半径",
+        "h": "高"
+      },
+      "rules": [
+        "侧面展开是长方形",
+        "长=底面周长，宽=高"
+      ],
+      "example": "r=3cm, h=5cm → S侧=2×3.14×3×5=94.2cm²",
+      "related_knowledge": [
+        "KN-G6X-001",
+        "KN-G6X-002"
+      ],
+      "tip": "侧面积=底面周长×高"
+    },
+    {
+      "id": "FM-G6X-002",
+      "title": "圆柱表面积",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "下",
+      "formula_text": "S表 = 2πr² + 2πrh",
+      "formula_html": "S<sub>表</sub> = 2πr² + 2πrh",
+      "variables": {
+        "r": "底面半径",
+        "h": "高"
+      },
+      "rules": [
+        "表面积=两个底面积+侧面积"
+      ],
+      "example": "r=2cm, h=6cm → S表=2×3.14×4+2×3.14×2×6=100.48cm²",
+      "related_knowledge": [
+        "KN-G6X-002"
+      ],
+      "tip": "注意是否有盖（实际问题中可能只有一个底面）"
+    },
+    {
+      "id": "FM-G6X-003",
+      "title": "圆柱体积",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "下",
+      "formula_text": "V = πr²h",
+      "formula_html": "V = πr²h",
+      "variables": {
+        "r": "底面半径",
+        "h": "高"
+      },
+      "rules": [
+        "底面积×高"
+      ],
+      "example": "r=3cm, h=10cm → V=3.14×9×10=282.6cm³",
+      "related_knowledge": [
+        "KN-G6X-003"
+      ],
+      "tip": "体积=底面积×高，与长方体体积公式统一"
+    },
+    {
+      "id": "FM-G6X-004",
+      "title": "圆锥体积",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "下",
+      "formula_text": "V = (1/3)πr²h",
+      "formula_html": "V = ⅓πr²h",
+      "variables": {
+        "r": "底面半径",
+        "h": "高"
+      },
+      "rules": [
+        "圆锥体积=等底等高圆柱体积的三分之一"
+      ],
+      "example": "r=3cm, h=6cm → V=⅓×3.14×9×6=56.52cm³",
+      "related_knowledge": [
+        "KN-G6X-005"
+      ],
+      "tip": "不要忘记乘以⅓"
+    },
+    {
+      "id": "FM-G6X-005",
+      "title": "比例基本性质",
+      "category": "教材公式",
+      "grade": "6",
+      "semester": "下",
+      "formula_text": "a:b = c:d → ad = bc",
+      "formula_html": "a:b = c:d → ad = bc",
+      "variables": {
+        "a,d": "外项",
+        "b,c": "内项"
+      },
+      "rules": [
+        "两个外项之积等于两个内项之积"
+      ],
+      "example": "2:3=4:6 → 2×6=3×4=12",
+      "related_knowledge": [
+        "KN-G6X-006",
+        "KN-G6X-007"
+      ],
+      "tip": "交叉相乘"
+    },
+    {
+      "id": "FM-G7S-001",
+      "title": "有理数运算法则",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "上",
+      "formula_text": "同号相加取相同符号；异号相加取绝对值大的符号",
+      "formula_html": "同号相加取相同符号；异号相加取绝对值大的符号",
+      "variables": {},
+      "rules": [
+        "同号得正，异号得负（乘除法）",
+        "绝对值相加减（加减法）"
+      ],
+      "example": "(-3)+(-5)=-8; (-3)+(+5)=+2",
+      "related_knowledge": [
+        "KN-G7S-002",
+        "KN-G7S-003"
+      ],
+      "tip": "先定符号，再算绝对值"
+    },
+    {
+      "id": "FM-G7S-002",
+      "title": "合并同类项",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "上",
+      "formula_text": "系数相加减，字母及指数不变",
+      "formula_html": "系数相加减，字母及指数不变",
+      "variables": {},
+      "rules": [
+        "同类项：字母相同且对应指数相同",
+        "只合并系数"
+      ],
+      "example": "3x²+5x²=8x²; 2ab-5ab=-3ab",
+      "related_knowledge": [
+        "KN-G7S-007"
+      ],
+      "tip": "注意同类项的判定条件"
+    },
+    {
+      "id": "FM-G7S-003",
+      "title": "去括号法则",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "上",
+      "formula_text": "+(a+b)=a+b; -(a+b)=-a-b",
+      "formula_html": "+(a+b)=a+b; -(a+b)=-a-b",
+      "variables": {},
+      "rules": [
+        "括号前是正号，去括号各项不变号",
+        "括号前是负号，去括号各项变号"
+      ],
+      "example": "-(2x-3)=-2x+3",
+      "related_knowledge": [
+        "KN-G7S-008"
+      ],
+      "tip": "括号前是减号，括号里每项都要变号"
+    },
+    {
+      "id": "FM-G7S-004",
+      "title": "一元一次方程",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "上",
+      "formula_text": "ax + b = 0 (a≠0) → x = -b/a",
+      "formula_html": "ax + b = 0 (a≠0) → x = -b/a",
+      "variables": {
+        "a": "系数",
+        "b": "常数项"
+      },
+      "rules": [
+        "去分母→去括号→移项→合并同类项→系数化为1"
+      ],
+      "example": "2x+6=0 → x=-3",
+      "related_knowledge": [
+        "KN-G7S-010"
+      ],
+      "tip": "解方程五步骤"
+    },
+    {
+      "id": "FM-G7X-001",
+      "title": "代入消元法",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "下",
+      "formula_text": "从一个方程中解出一个未知数，代入另一方程",
+      "formula_html": "从一个方程中解出一个未知数，代入另一方程",
+      "variables": {},
+      "rules": [
+        "选系数为1或-1的方程表示一个未知数",
+        "代入另一方程消元"
+      ],
+      "example": "x=2y-1代入x+y=5得3y-1=5, y=2, x=3",
+      "related_knowledge": [
+        "KN-G7X-002"
+      ],
+      "tip": "选系数简单的方程表示"
+    },
+    {
+      "id": "FM-G7X-002",
+      "title": "加减消元法",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "下",
+      "formula_text": "两方程相加或相减消去一个未知数",
+      "formula_html": "两方程相加或相减消去一个未知数",
+      "variables": {},
+      "rules": [
+        "系数相同减，系数相反加",
+        "系数不同先化相同再消"
+      ],
+      "example": "2x+y=5, x+y=3 → 相减得x=2",
+      "related_knowledge": [
+        "KN-G7X-003"
+      ],
+      "tip": "对齐同类项，注意符号"
+    },
+    {
+      "id": "FM-G7X-003",
+      "title": "不等式性质",
+      "category": "教材公式",
+      "grade": "7",
+      "semester": "下",
+      "formula_text": "两边乘(除)负数，不等号方向改变",
+      "formula_html": "两边乘(除)负数，不等号方向改变",
+      "variables": {},
+      "rules": [
+        "性质1：两边加减同数不变号",
+        "性质2：两边乘除正数不变号",
+        "性质3：两边乘除负数要变号"
+      ],
+      "example": "-2x>6 → x<-3",
+      "related_knowledge": [
+        "KN-G7X-005",
+        "KN-G7X-006"
+      ],
+      "tip": "乘除负数一定要变号！"
+    },
+    {
+      "id": "FM-G8S-001",
+      "title": "全等三角形判定",
+      "category": "教材公式",
+      "grade": "8",
+      "semester": "上",
+      "formula_text": "SSS, SAS, ASA, AAS, HL",
+      "formula_html": "SSS, SAS, ASA, AAS, HL",
+      "variables": {},
+      "rules": [
+        "SSS：三边对应相等",
+        "SAS：两边及其夹角对应相等",
+        "ASA：两角及其夹边对应相等",
+        "AAS：两角及一角的对边对应相等",
+        "HL：斜边和直角边对应相等（直角三角形）"
+      ],
+      "example": "在△ABC和△DEF中，AB=DE, BC=EF, AC=DF → △ABC≅△DEF(SSS)",
+      "related_knowledge": [
+        "KN-G8S-002",
+        "KN-G8S-003"
+      ],
+      "tip": "注意对应顺序，AAA和SSA不能判定全等"
+    },
+    {
+      "id": "FM-G8S-002",
+      "title": "一次函数",
+      "category": "教材公式",
+      "grade": "8",
+      "semester": "上",
+      "formula_text": "y = kx + b (k≠0)",
+      "formula_html": "y = kx + b (k≠0)",
+      "variables": {
+        "k": "斜率（决定倾斜方向）",
+        "b": "截距（与y轴交点）"
+      },
+      "rules": [
+        "k>0图象从左下到右上",
+        "k<0图象从左上到右下",
+        "b>0图象与y轴正半轴相交"
+      ],
+      "example": "y=2x+1, 过(0,1)和(-0.5,0)",
+      "related_knowledge": [
+        "KN-G8S-007"
+      ],
+      "tip": "k决定增减性，b决定平移"
+    },
+    {
+      "id": "FM-G8X-001",
+      "title": "勾股定理",
+      "category": "教材公式",
+      "grade": "8",
+      "semester": "下",
+      "formula_text": "a² + b² = c²",
+      "formula_html": "a² + b² = c²",
+      "variables": {
+        "a,b": "直角边",
+        "c": "斜边"
+      },
+      "rules": [
+        "直角三角形中，两直角边的平方和等于斜边的平方"
+      ],
+      "example": "a=3, b=4 → c=√(9+16)=5",
+      "related_knowledge": [
+        "KN-G8X-001"
+      ],
+      "tip": "只在直角三角形中成立"
+    },
+    {
+      "id": "FM-G8X-002",
+      "title": "勾股定理逆定理",
+      "category": "教材公式",
+      "grade": "8",
+      "semester": "下",
+      "formula_text": "若a²+b²=c², 则∠C=90°",
+      "formula_html": "若a²+b²=c², 则∠C=90°",
+      "variables": {
+        "c": "最长边"
+      },
+      "rules": [
+        "三边满足a²+b²=c²则是直角三角形",
+        "最长边的平方=另两边平方和"
+      ],
+      "example": "5²=3²+4²=25 → 是直角三角形",
+      "related_knowledge": [
+        "KN-G8X-002"
+      ],
+      "tip": "要先确定最长边"
+    },
+    {
+      "id": "FM-G8X-003",
+      "title": "平行四边形判定",
+      "category": "教材公式",
+      "grade": "8",
+      "semester": "下",
+      "formula_text": "两组对边分别平行/相等；对角线互相平分",
+      "formula_html": "两组对边分别平行/相等；对角线互相平分",
+      "variables": {},
+      "rules": [
+        "两组对边分别平行",
+        "两组对边分别相等",
+        "一组对边平行且相等",
+        "对角线互相平分"
+      ],
+      "example": "ABCD中AB∥CD且AB=CD → ABCD是平行四边形",
+      "related_knowledge": [
+        "KN-G8X-004"
+      ],
+      "tip": "注意一组对边平行且相等也可以判定"
+    },
+    {
+      "id": "FM-G9S-001",
+      "title": "求根公式",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "上",
+      "formula_text": "x = (-b ± √(b²-4ac)) / (2a)",
+      "formula_html": "x = (-b ± √(b²-4ac)) / (2a)",
+      "variables": {
+        "a": "二次项系数",
+        "b": "一次项系数",
+        "c": "常数项",
+        "Δ=b²-4ac": "判别式"
+      },
+      "rules": [
+        "Δ>0有两个不等实根",
+        "Δ=0有两个相等实根",
+        "Δ<0无实根"
+      ],
+      "example": "x²-5x+6=0 → x=(5±1)/2 → x=3或x=2",
+      "related_knowledge": [
+        "KN-G9S-002"
+      ],
+      "tip": "先算判别式Δ，再代入公式"
+    },
+    {
+      "id": "FM-G9S-002",
+      "title": "韦达定理",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "上",
+      "formula_text": "x₁+x₂ = -b/a, x₁·x₂ = c/a",
+      "formula_html": "x₁+x₂ = -b/a, x₁·x₂ = c/a",
+      "variables": {
+        "x₁,x₂": "两根"
+      },
+      "rules": [
+        "两根之和=-b/a",
+        "两根之积=c/a",
+        "前提：Δ≥0"
+      ],
+      "example": "x²-5x+6=0 → x₁+x₂=5, x₁·x₂=6",
+      "related_knowledge": [
+        "KN-G9S-003"
+      ],
+      "tip": "可以不解方程求两根的和与积"
+    },
+    {
+      "id": "FM-G9S-003",
+      "title": "二次函数顶点式",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "上",
+      "formula_text": "y = a(x-h)² + k, 顶点(h,k)",
+      "formula_html": "y = a(x-h)² + k, 顶点(h,k)",
+      "variables": {
+        "a": "开口方向和大小",
+        "h": "对称轴x=h",
+        "k": "顶点纵坐标"
+      },
+      "rules": [
+        "a>0开口向上，有最小值k",
+        "a<0开口向下，有最大值k",
+        "对称轴x=h"
+      ],
+      "example": "y=2(x-1)²+3, 顶点(1,3), 对称轴x=1",
+      "related_knowledge": [
+        "KN-G9S-006"
+      ],
+      "tip": "注意(x-h)中h的符号"
+    },
+    {
+      "id": "FM-G9S-004",
+      "title": "圆的基本性质",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "上",
+      "formula_text": "圆心角=弧所对圆心角; 同弧上圆周角=½圆心角",
+      "formula_html": "同弧上圆周角 = ½圆心角",
+      "variables": {},
+      "rules": [
+        "同弧(等弧)上的圆周角相等",
+        "圆周角等于同弧上圆心角的一半",
+        "直径所对圆周角为90°"
+      ],
+      "example": "圆心角60°对应的圆周角为30°",
+      "related_knowledge": [
+        "KN-G9S-011"
+      ],
+      "tip": "圆周角是圆心角的一半"
+    },
+    {
+      "id": "FM-G9X-001",
+      "title": "反比例函数",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "下",
+      "formula_text": "y = k/x (k≠0)",
+      "formula_html": "y = k/x (k≠0)",
+      "variables": {
+        "k": "比例系数"
+      },
+      "rules": [
+        "k>0图象在一三象限",
+        "k<0图象在二四象限",
+        "xy=k为常数"
+      ],
+      "example": "y=6/x, 当x=2时y=3; 当x=3时y=2",
+      "related_knowledge": [
+        "KN-G9X-001"
+      ],
+      "tip": "k的正负决定图象位置"
+    },
+    {
+      "id": "FM-G9X-002",
+      "title": "锐角三角函数",
+      "category": "教材公式",
+      "grade": "9",
+      "semester": "下",
+      "formula_text": "sinA=对边/斜边, cosA=邻边/斜边, tanA=对边/邻边",
+      "formula_html": "sinA=对边/斜边, cosA=邻边/斜边, tanA=对边/邻边",
+      "variables": {
+        "A": "锐角"
+      },
+      "rules": [
+        "sin30°=½, cos30°=√3/2, tan30°=√3/3",
+        "sin45°=√2/2, cos45°=√2/2, tan45°=1",
+        "sin60°=√3/2, cos60°=½, tan60°=√3"
+      ],
+      "example": "直角三角形中对边3斜边5 → sinA=3/5",
+      "related_knowledge": [
+        "KN-G9X-003"
+      ],
+      "tip": "对边是角A的对面那条边"
+    },
+    {
+      "id": "FM-ADV-001",
+      "title": "平方差公式",
+      "category": "思维公式",
+      "grade": "7",
+      "semester": "下",
+      "formula_text": "a²-b² = (a+b)(a-b)",
+      "formula_html": "a²-b² = (a+b)(a-b)",
+      "variables": {
+        "a,b": "任意实数"
+      },
+      "rules": [
+        "两个数的平方差等于这两个数的和与差的积"
+      ],
+      "example": "99²-1² = (99+1)(99-1) = 100×98 = 9800",
+      "related_knowledge": [],
+      "tip": "因式分解和巧算的核心"
+    },
+    {
+      "id": "FM-ADV-002",
+      "title": "完全平方公式",
+      "category": "思维公式",
+      "grade": "7",
+      "semester": "下",
+      "formula_text": "(a±b)² = a² ± 2ab + b²",
+      "formula_html": "(a±b)² = a² ± 2ab + b²",
+      "variables": {
+        "a,b": "任意实数"
+      },
+      "rules": [
+        "首平方+末平方±2倍首末积",
+        "展开和因式分解互逆"
+      ],
+      "example": "(x+3)²=x²+6x+9",
+      "related_knowledge": [],
+      "tip": "不要忘记中间项2ab"
+    },
+    {
+      "id": "FM-ADV-003",
+      "title": "韦达定理（进阶）",
+      "category": "思维公式",
+      "grade": "9",
+      "semester": "上",
+      "formula_text": "x₁+x₂=-b/a, x₁x₂=c/a",
+      "formula_html": "x₁+x₂=-b/a, x₁x₂=c/a",
+      "variables": {},
+      "rules": [
+        "可用于构造新方程",
+        "判断两根符号",
+        "求含根对称式的值"
+      ],
+      "example": "已知x₁+x₂=3, x₁x₂=2 → x₁²+x₂²=(x₁+x₂)²-2x₁x₂=5",
+      "related_knowledge": [
+        "KN-G9S-003"
+      ],
+      "tip": "将所求式子转化为和与积的表达"
+    },
+    {
+      "id": "FM-ADV-004",
+      "title": "裂项公式",
+      "category": "思维公式",
+      "grade": "8",
+      "semester": "上",
+      "formula_text": "1/(n(n+1)) = 1/n - 1/(n+1)",
+      "formula_html": "1/(n(n+1)) = 1/n - 1/(n+1)",
+      "variables": {
+        "n": "正整数"
+      },
+      "rules": [
+        "分母可因式分解为相邻两数之积",
+        "求和时相邻项抵消"
+      ],
+      "example": "1/(1×2)+1/(2×3)+1/(3×4)=1-1/4=3/4",
+      "related_knowledge": [],
+      "tip": "裂项后求和，首尾不消"
+    },
+    {
+      "id": "FM-ADV-005",
+      "title": "等差数列求和",
+      "category": "思维公式",
+      "grade": "8",
+      "semester": "下",
+      "formula_text": "S = n(a₁+aₙ)/2",
+      "formula_html": "S = n(a₁+aₙ)/2",
+      "variables": {
+        "n": "项数",
+        "a₁": "首项",
+        "aₙ": "末项"
+      },
+      "rules": [
+        "首项+末项乘项数除以2",
+        "倒序相加法推导"
+      ],
+      "example": "1+2+3+...+100 = 100×101/2 = 5050",
+      "related_knowledge": [],
+      "tip": "高斯求和法"
+    },
+    {
+      "id": "FM-ADV-006",
+      "title": "等比数列求和",
+      "category": "思维公式",
+      "grade": "9",
+      "semester": "下",
+      "formula_text": "S = a₁(1-qⁿ)/(1-q), q≠1",
+      "formula_html": "S = a₁(1-qⁿ)/(1-q), q≠1",
+      "variables": {
+        "a₁": "首项",
+        "q": "公比",
+        "n": "项数"
+      },
+      "rules": [
+        "错位相减法推导",
+        "q=1时S=na₁"
+      ],
+      "example": "1+2+4+8+...+2⁹ = (2¹⁰-1)/(2-1) = 1023",
+      "related_knowledge": [],
+      "tip": "竞赛和压轴题常用"
+    },
+    {
+      "id": "FM-ADV-007",
+      "title": "柯西不等式（启蒙）",
+      "category": "思维公式",
+      "grade": "9",
+      "semester": "下",
+      "formula_text": "(a²+b²)(c²+d²) ≥ (ac+bd)²",
+      "formula_html": "(a²+b²)(c²+d²) ≥ (ac+bd)²",
+      "variables": {},
+      "rules": [
+        "等号成立条件：a/c=b/d",
+        "可用于求最值"
+      ],
+      "example": "求x²+y²的最小值（在约束条件下）",
+      "related_knowledge": [],
+      "tip": "了解即可，培养不等式思维"
+    }
+  ]
+}

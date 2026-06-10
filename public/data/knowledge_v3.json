@@ -1,0 +1,1498 @@
+{
+  "version": "3.0",
+  "grades": [
+    {
+      "grade": "6",
+      "semester": "下",
+      "chapters": [
+        {
+          "id": "KN-G6X-CH01",
+          "name": "圆柱与圆锥",
+          "sections": [
+            {
+              "id": "KN-G6X-001",
+              "name": "圆柱的认识",
+              "prerequisites": [
+                "KN-G6S-circle"
+              ],
+              "related_formulas": [
+                "FM-G6X-001",
+                "FM-G6X-002"
+              ],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G6X-002",
+              "name": "圆柱的表面积",
+              "prerequisites": [
+                "KN-G6X-001"
+              ],
+              "related_formulas": [
+                "FM-G6X-002"
+              ],
+              "related_skills": [
+                "SK-013"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G6X-003",
+              "name": "圆柱的体积",
+              "prerequisites": [
+                "KN-G6X-002"
+              ],
+              "related_formulas": [
+                "FM-G6X-003"
+              ],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G6X-004",
+              "name": "圆锥的认识",
+              "prerequisites": [
+                "KN-G6X-001"
+              ],
+              "related_formulas": [
+                "FM-G6X-004"
+              ],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G6X-005",
+              "name": "圆锥的体积",
+              "prerequisites": [
+                "KN-G6X-003",
+                "KN-G6X-004"
+              ],
+              "related_formulas": [
+                "FM-G6X-004"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G6X-CH02",
+          "name": "比例",
+          "sections": [
+            {
+              "id": "KN-G6X-006",
+              "name": "比例的意义和基本性质",
+              "prerequisites": [],
+              "related_formulas": [
+                "FM-G6X-005"
+              ],
+              "related_skills": [
+                "SK-008"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G6X-007",
+              "name": "解比例",
+              "prerequisites": [
+                "KN-G6X-006"
+              ],
+              "related_formulas": [
+                "FM-G6X-005"
+              ],
+              "related_skills": [
+                "SK-008"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G6X-CH03",
+          "name": "比例尺",
+          "sections": [
+            {
+              "id": "KN-G6X-008",
+              "name": "比例尺的意义",
+              "prerequisites": [
+                "KN-G6X-006"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-013"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G6X-009",
+              "name": "比例尺的应用",
+              "prerequisites": [
+                "KN-G6X-008"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006",
+                "SK-013"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G6X-CH04",
+          "name": "正比例与反比例",
+          "sections": [
+            {
+              "id": "KN-G6X-010",
+              "name": "正比例",
+              "prerequisites": [
+                "KN-G6X-006"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G6X-011",
+              "name": "反比例",
+              "prerequisites": [
+                "KN-G6X-010"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G6X-CH05",
+          "name": "统计",
+          "sections": [
+            {
+              "id": "KN-G6X-012",
+              "name": "扇形统计图",
+              "prerequisites": [],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014",
+                "SK-015"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "7",
+      "semester": "上",
+      "chapters": [
+        {
+          "id": "KN-G7S-CH01",
+          "name": "有理数",
+          "sections": [
+            {
+              "id": "KN-G7S-001",
+              "name": "正数与负数",
+              "prerequisites": [],
+              "related_formulas": [
+                "FM-G7S-001"
+              ],
+              "related_skills": [
+                "SK-005"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7S-002",
+              "name": "有理数的加减",
+              "prerequisites": [
+                "KN-G7S-001"
+              ],
+              "related_formulas": [
+                "FM-G7S-001"
+              ],
+              "related_skills": [
+                "SK-005"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7S-003",
+              "name": "有理数的乘除",
+              "prerequisites": [
+                "KN-G7S-002"
+              ],
+              "related_formulas": [
+                "FM-G7S-001"
+              ],
+              "related_skills": [
+                "SK-005"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7S-004",
+              "name": "有理数的乘方",
+              "prerequisites": [
+                "KN-G7S-003"
+              ],
+              "related_formulas": [
+                "FM-G7S-001"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-010"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7S-CH02",
+          "name": "整式",
+          "sections": [
+            {
+              "id": "KN-G7S-005",
+              "name": "单项式与多项式",
+              "prerequisites": [
+                "KN-G7S-001"
+              ],
+              "related_formulas": [
+                "FM-G7S-002"
+              ],
+              "related_skills": [
+                "SK-001"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7S-006",
+              "name": "同类项",
+              "prerequisites": [
+                "KN-G7S-005"
+              ],
+              "related_formulas": [
+                "FM-G7S-002"
+              ],
+              "related_skills": [
+                "SK-001"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7S-CH03",
+          "name": "整式加减",
+          "sections": [
+            {
+              "id": "KN-G7S-007",
+              "name": "合并同类项",
+              "prerequisites": [
+                "KN-G7S-006"
+              ],
+              "related_formulas": [
+                "FM-G7S-002"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7S-008",
+              "name": "去括号与添括号",
+              "prerequisites": [
+                "KN-G7S-007"
+              ],
+              "related_formulas": [
+                "FM-G7S-003"
+              ],
+              "related_skills": [
+                "SK-005"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7S-CH04",
+          "name": "一元一次方程",
+          "sections": [
+            {
+              "id": "KN-G7S-009",
+              "name": "等式的性质与方程",
+              "prerequisites": [
+                "KN-G7S-008"
+              ],
+              "related_formulas": [
+                "FM-G7S-004"
+              ],
+              "related_skills": [
+                "SK-008"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7S-010",
+              "name": "解一元一次方程",
+              "prerequisites": [
+                "KN-G7S-009"
+              ],
+              "related_formulas": [
+                "FM-G7S-004"
+              ],
+              "related_skills": [
+                "SK-008",
+                "SK-011"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G7S-011",
+              "name": "一元一次方程的应用",
+              "prerequisites": [
+                "KN-G7S-010"
+              ],
+              "related_formulas": [
+                "FM-G7S-004"
+              ],
+              "related_skills": [
+                "SK-008",
+                "SK-013",
+                "SK-015"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7S-CH05",
+          "name": "几何初步",
+          "sections": [
+            {
+              "id": "KN-G7S-012",
+              "name": "线段、射线、直线",
+              "prerequisites": [],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7S-013",
+              "name": "角",
+              "prerequisites": [
+                "KN-G7S-012"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "7",
+      "semester": "下",
+      "chapters": [
+        {
+          "id": "KN-G7X-CH01",
+          "name": "二元一次方程组",
+          "sections": [
+            {
+              "id": "KN-G7X-001",
+              "name": "二元一次方程组",
+              "prerequisites": [
+                "KN-G7S-010"
+              ],
+              "related_formulas": [
+                "FM-G7X-001",
+                "FM-G7X-002"
+              ],
+              "related_skills": [
+                "SK-008",
+                "SK-001"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7X-002",
+              "name": "代入消元法",
+              "prerequisites": [
+                "KN-G7X-001"
+              ],
+              "related_formulas": [
+                "FM-G7X-001"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-002"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G7X-003",
+              "name": "加减消元法",
+              "prerequisites": [
+                "KN-G7X-001"
+              ],
+              "related_formulas": [
+                "FM-G7X-002"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-002"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G7X-004",
+              "name": "方程组的应用",
+              "prerequisites": [
+                "KN-G7X-002",
+                "KN-G7X-003"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-008",
+                "SK-013"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7X-CH02",
+          "name": "不等式与不等式组",
+          "sections": [
+            {
+              "id": "KN-G7X-005",
+              "name": "不等式的性质",
+              "prerequisites": [
+                "KN-G7S-010"
+              ],
+              "related_formulas": [
+                "FM-G7X-003"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7X-006",
+              "name": "一元一次不等式",
+              "prerequisites": [
+                "KN-G7X-005"
+              ],
+              "related_formulas": [
+                "FM-G7X-003"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G7X-007",
+              "name": "一元一次不等式组",
+              "prerequisites": [
+                "KN-G7X-006"
+              ],
+              "related_formulas": [
+                "FM-G7X-003"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7X-CH03",
+          "name": "平面直角坐标系",
+          "sections": [
+            {
+              "id": "KN-G7X-008",
+              "name": "有序数对与坐标系",
+              "prerequisites": [
+                "KN-G7S-001"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006",
+                "SK-009"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7X-009",
+              "name": "坐标方法的简单应用",
+              "prerequisites": [
+                "KN-G7X-008"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006",
+                "SK-007"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G7X-CH04",
+          "name": "三角形",
+          "sections": [
+            {
+              "id": "KN-G7X-010",
+              "name": "三角形的边和角",
+              "prerequisites": [
+                "KN-G7S-013"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-005",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G7X-011",
+              "name": "三角形的内角和",
+              "prerequisites": [
+                "KN-G7X-010"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-005",
+                "SK-008"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G7X-012",
+              "name": "多边形及其内角和",
+              "prerequisites": [
+                "KN-G7X-011"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-010",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "semester": "上",
+      "chapters": [
+        {
+          "id": "KN-G8S-CH01",
+          "name": "三角形（全等）",
+          "sections": [
+            {
+              "id": "KN-G8S-001",
+              "name": "全等三角形的性质",
+              "prerequisites": [
+                "KN-G7X-010"
+              ],
+              "related_formulas": [
+                "FM-G8S-001"
+              ],
+              "related_skills": [
+                "SK-006",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G8S-002",
+              "name": "全等三角形的判定（SSS/SAS/ASA/AAS）",
+              "prerequisites": [
+                "KN-G8S-001"
+              ],
+              "related_formulas": [
+                "FM-G8S-001"
+              ],
+              "related_skills": [
+                "SK-004",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G8S-003",
+              "name": "全等三角形的判定（HL）",
+              "prerequisites": [
+                "KN-G8S-002"
+              ],
+              "related_formulas": [
+                "FM-G8S-001"
+              ],
+              "related_skills": [
+                "SK-004",
+                "SK-007"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G8S-CH02",
+          "name": "轴对称",
+          "sections": [
+            {
+              "id": "KN-G8S-004",
+              "name": "轴对称的性质",
+              "prerequisites": [
+                "KN-G8S-001"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-007",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G8S-005",
+              "name": "等腰三角形",
+              "prerequisites": [
+                "KN-G8S-004"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-005",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G8S-CH03",
+          "name": "一次函数",
+          "sections": [
+            {
+              "id": "KN-G8S-006",
+              "name": "正比例函数",
+              "prerequisites": [
+                "KN-G7X-008",
+                "KN-G6X-010"
+              ],
+              "related_formulas": [
+                "FM-G8S-002"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G8S-007",
+              "name": "一次函数",
+              "prerequisites": [
+                "KN-G8S-006"
+              ],
+              "related_formulas": [
+                "FM-G8S-002"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G8S-008",
+              "name": "一次函数与方程不等式",
+              "prerequisites": [
+                "KN-G8S-007",
+                "KN-G7X-006"
+              ],
+              "related_formulas": [
+                "FM-G8S-002"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006",
+                "SK-001"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G8S-CH04",
+          "name": "数据的分析",
+          "sections": [
+            {
+              "id": "KN-G8S-009",
+              "name": "平均数与加权平均数",
+              "prerequisites": [],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014",
+                "SK-015"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G8S-010",
+              "name": "中位数与众数",
+              "prerequisites": [
+                "KN-G8S-009"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G8S-011",
+              "name": "方差",
+              "prerequisites": [
+                "KN-G8S-009"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "semester": "下",
+      "chapters": [
+        {
+          "id": "KN-G8X-CH01",
+          "name": "勾股定理",
+          "sections": [
+            {
+              "id": "KN-G8X-001",
+              "name": "勾股定理",
+              "prerequisites": [
+                "KN-G8S-002"
+              ],
+              "related_formulas": [
+                "FM-G8X-001"
+              ],
+              "related_skills": [
+                "SK-006",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G8X-002",
+              "name": "勾股定理的逆定理",
+              "prerequisites": [
+                "KN-G8X-001"
+              ],
+              "related_formulas": [
+                "FM-G8X-002"
+              ],
+              "related_skills": [
+                "SK-011",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G8X-CH02",
+          "name": "平行四边形",
+          "sections": [
+            {
+              "id": "KN-G8X-003",
+              "name": "平行四边形的性质",
+              "prerequisites": [
+                "KN-G8S-001"
+              ],
+              "related_formulas": [
+                "FM-G8X-003"
+              ],
+              "related_skills": [
+                "SK-006",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G8X-004",
+              "name": "平行四边形的判定",
+              "prerequisites": [
+                "KN-G8X-003"
+              ],
+              "related_formulas": [
+                "FM-G8X-003"
+              ],
+              "related_skills": [
+                "SK-004",
+                "SK-005"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            },
+            {
+              "id": "KN-G8X-005",
+              "name": "特殊平行四边形",
+              "prerequisites": [
+                "KN-G8X-004"
+              ],
+              "related_formulas": [
+                "FM-G8X-003"
+              ],
+              "related_skills": [
+                "SK-004",
+                "SK-005",
+                "SK-007"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G8X-CH03",
+          "name": "数据分析",
+          "sections": [
+            {
+              "id": "KN-G8X-006",
+              "name": "数据的收集与整理",
+              "prerequisites": [
+                "KN-G8S-009"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014",
+                "SK-015"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G8X-007",
+              "name": "频率与频率分布",
+              "prerequisites": [
+                "KN-G8X-006"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-014"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "9",
+      "semester": "上",
+      "chapters": [
+        {
+          "id": "KN-G9S-CH01",
+          "name": "一元二次方程",
+          "sections": [
+            {
+              "id": "KN-G9S-001",
+              "name": "一元二次方程的概念",
+              "prerequisites": [
+                "KN-G7S-010"
+              ],
+              "related_formulas": [
+                "FM-G9S-001"
+              ],
+              "related_skills": [
+                "SK-008"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G9S-002",
+              "name": "求根公式与判别式",
+              "prerequisites": [
+                "KN-G9S-001"
+              ],
+              "related_formulas": [
+                "FM-G9S-001"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-008"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G9S-003",
+              "name": "韦达定理",
+              "prerequisites": [
+                "KN-G9S-002"
+              ],
+              "related_formulas": [
+                "FM-G9S-002"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-011"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            },
+            {
+              "id": "KN-G9S-004",
+              "name": "一元二次方程的应用",
+              "prerequisites": [
+                "KN-G9S-002"
+              ],
+              "related_formulas": [
+                "FM-G9S-001"
+              ],
+              "related_skills": [
+                "SK-008",
+                "SK-013"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9S-CH02",
+          "name": "二次函数",
+          "sections": [
+            {
+              "id": "KN-G9S-005",
+              "name": "二次函数的图象和性质",
+              "prerequisites": [
+                "KN-G8S-007",
+                "KN-G9S-001"
+              ],
+              "related_formulas": [
+                "FM-G9S-003"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G9S-006",
+              "name": "二次函数的顶点式",
+              "prerequisites": [
+                "KN-G9S-005"
+              ],
+              "related_formulas": [
+                "FM-G9S-003"
+              ],
+              "related_skills": [
+                "SK-001",
+                "SK-009",
+                "SK-012"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            },
+            {
+              "id": "KN-G9S-007",
+              "name": "二次函数与一元二次方程",
+              "prerequisites": [
+                "KN-G9S-005",
+                "KN-G9S-002"
+              ],
+              "related_formulas": [
+                "FM-G9S-003",
+                "FM-G9S-001"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9S-CH03",
+          "name": "相似三角形",
+          "sections": [
+            {
+              "id": "KN-G9S-008",
+              "name": "比例线段",
+              "prerequisites": [
+                "KN-G6X-006"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G9S-009",
+              "name": "相似三角形的判定和性质",
+              "prerequisites": [
+                "KN-G9S-008",
+                "KN-G8S-002"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-004",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9S-CH04",
+          "name": "圆",
+          "sections": [
+            {
+              "id": "KN-G9S-010",
+              "name": "圆的基本性质",
+              "prerequisites": [
+                "KN-G8S-004"
+              ],
+              "related_formulas": [
+                "FM-G9S-004"
+              ],
+              "related_skills": [
+                "SK-006",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G9S-011",
+              "name": "圆周角与圆心角",
+              "prerequisites": [
+                "KN-G9S-010"
+              ],
+              "related_formulas": [
+                "FM-G9S-004"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            },
+            {
+              "id": "KN-G9S-012",
+              "name": "直线与圆的位置关系",
+              "prerequisites": [
+                "KN-G9S-010"
+              ],
+              "related_formulas": [
+                "FM-G9S-004"
+              ],
+              "related_skills": [
+                "SK-005",
+                "SK-004"
+              ],
+              "difficulty_range": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9S-CH05",
+          "name": "概率",
+          "sections": [
+            {
+              "id": "KN-G9S-013",
+              "name": "随机事件与概率",
+              "prerequisites": [],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-005",
+                "SK-014"
+              ],
+              "difficulty_range": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": "KN-G9S-014",
+              "name": "用列举法求概率",
+              "prerequisites": [
+                "KN-G9S-013"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-005",
+                "SK-010"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "9",
+      "semester": "下",
+      "chapters": [
+        {
+          "id": "KN-G9X-CH01",
+          "name": "反比例函数",
+          "sections": [
+            {
+              "id": "KN-G9X-001",
+              "name": "反比例函数的图象和性质",
+              "prerequisites": [
+                "KN-G8S-007",
+                "KN-G6X-011"
+              ],
+              "related_formulas": [
+                "FM-G9X-001"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "KN-G9X-002",
+              "name": "反比例函数的应用",
+              "prerequisites": [
+                "KN-G9X-001"
+              ],
+              "related_formulas": [
+                "FM-G9X-001"
+              ],
+              "related_skills": [
+                "SK-009",
+                "SK-013"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9X-CH02",
+          "name": "锐角三角函数",
+          "sections": [
+            {
+              "id": "KN-G9X-003",
+              "name": "正弦、余弦、正切",
+              "prerequisites": [
+                "KN-G9S-009",
+                "KN-G8X-001"
+              ],
+              "related_formulas": [
+                "FM-G9X-002"
+              ],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            },
+            {
+              "id": "KN-G9X-004",
+              "name": "解直角三角形",
+              "prerequisites": [
+                "KN-G9X-003"
+              ],
+              "related_formulas": [
+                "FM-G9X-002"
+              ],
+              "related_skills": [
+                "SK-006",
+                "SK-013"
+              ],
+              "difficulty_range": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "KN-G9X-CH03",
+          "name": "投影与视图",
+          "sections": [
+            {
+              "id": "KN-G9X-005",
+              "name": "投影",
+              "prerequisites": [],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                1,
+                3
+              ]
+            },
+            {
+              "id": "KN-G9X-006",
+              "name": "三视图",
+              "prerequisites": [
+                "KN-G9X-005"
+              ],
+              "related_formulas": [],
+              "related_skills": [
+                "SK-006"
+              ],
+              "difficulty_range": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

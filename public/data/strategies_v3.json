@@ -1,0 +1,204 @@
+{
+  "version": "3.0",
+  "strategies": [
+    {
+      "id": "ST-001",
+      "name": "转化思想",
+      "description": "将未知问题转化为已知问题，将复杂问题转化为简单问题",
+      "core_idea": "化归",
+      "applicable_types": [
+        "application",
+        "proof",
+        "exploration"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "求不规则图形面积",
+          "method": "转化为规则图形的加减"
+        }
+      ],
+      "ai_prompt_hint": "引导学生思考：能不能把这个问题变成你见过的问题？"
+    },
+    {
+      "id": "ST-002",
+      "name": "数形结合",
+      "description": "将代数问题几何化或将几何问题代数化",
+      "core_idea": "以形助数，以数解形",
+      "applicable_types": [
+        "calculation",
+        "proof",
+        "exploration"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "比较大小或求范围",
+          "method": "在数轴或坐标系中表示"
+        }
+      ],
+      "ai_prompt_hint": "试着画个图看看，图形能帮你看出什么规律？"
+    },
+    {
+      "id": "ST-003",
+      "name": "分类讨论",
+      "description": "当问题条件不确定时，按不同情况分别讨论",
+      "core_idea": "不重不漏",
+      "applicable_types": [
+        "calculation",
+        "proof",
+        "exploration"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "含绝对值的方程",
+          "method": "按绝对值内表达式的正负分类"
+        }
+      ],
+      "ai_prompt_hint": "想想这里有没有几种不同的情况？每种情况分别是什么样的？"
+    },
+    {
+      "id": "ST-004",
+      "name": "函数思想",
+      "description": "用运动变化的观点分析数量关系",
+      "core_idea": "变量、对应、函数",
+      "applicable_types": [
+        "application",
+        "exploration"
+      ],
+      "grade_intro": "8",
+      "examples": [
+        {
+          "scenario": "最值问题",
+          "method": "建立函数关系，利用图象或配方求最值"
+        }
+      ],
+      "ai_prompt_hint": "这两个量之间有什么变化关系？能不能写成y关于x的表达式？"
+    },
+    {
+      "id": "ST-005",
+      "name": "方程思想",
+      "description": "通过设未知数、找等量关系建立方程解决问题",
+      "core_idea": "未知到已知的桥梁",
+      "applicable_types": [
+        "application",
+        "calculation"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "行程追及问题",
+          "method": "设时间或速度为x，根据路程相等列方程"
+        }
+      ],
+      "ai_prompt_hint": "把不知道的量设为x，想想哪些量之间是相等的？"
+    },
+    {
+      "id": "ST-006",
+      "name": "模型思想",
+      "description": "将实际问题抽象为数学模型进行求解",
+      "core_idea": "抽象与具体的统一",
+      "applicable_types": [
+        "application"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "工程问题",
+          "method": "设总工作量为1，建立工作效率模型"
+        }
+      ],
+      "ai_prompt_hint": "这个现实问题可以用哪个数学工具来解决？"
+    },
+    {
+      "id": "ST-007",
+      "name": "统计思想",
+      "description": "用数据说话，从数据中发现规律和趋势",
+      "core_idea": "用样本估计总体",
+      "applicable_types": [
+        "application",
+        "exploration"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "产品质量检测",
+          "method": "抽样调查计算合格率推断总体"
+        }
+      ],
+      "ai_prompt_hint": "这组数据告诉了我们什么信息？哪个统计量最能说明问题？"
+    },
+    {
+      "id": "ST-008",
+      "name": "概率思想",
+      "description": "用随机事件发生的可能性大小来做决策",
+      "core_idea": "必然中的偶然，偶然中的必然",
+      "applicable_types": [
+        "application",
+        "exploration"
+      ],
+      "grade_intro": "9",
+      "examples": [
+        {
+          "scenario": "游戏公平性判断",
+          "method": "计算各方获胜的概率是否相等"
+        }
+      ],
+      "ai_prompt_hint": "这件事发生的可能性有多大？怎么算出来？"
+    },
+    {
+      "id": "ST-009",
+      "name": "归纳思想",
+      "description": "从特殊到一般，通过观察、实验发现规律",
+      "core_idea": "从具体到抽象",
+      "applicable_types": [
+        "exploration",
+        "proof"
+      ],
+      "grade_intro": "6",
+      "examples": [
+        {
+          "scenario": "数字规律探究",
+          "method": "列举前几项发现规律用公式表达再验证"
+        }
+      ],
+      "ai_prompt_hint": "先算几个具体的例子，看看有什么规律？"
+    },
+    {
+      "id": "ST-010",
+      "name": "构造思想",
+      "description": "根据需要构造辅助元素（线、面、方程等）来解决问题",
+      "core_idea": "无中生有，以退为进",
+      "applicable_types": [
+        "proof",
+        "exploration"
+      ],
+      "grade_intro": "8",
+      "examples": [
+        {
+          "scenario": "证明线段相等",
+          "method": "构造全等三角形"
+        }
+      ],
+      "ai_prompt_hint": "如果加一条辅助线，会不会出现你熟悉的图形？"
+    },
+    {
+      "id": "ST-011",
+      "name": "创新定义思想",
+      "description": "理解新定义的运算或概念，并应用其规则解决问题",
+      "core_idea": "理解规则，灵活运用",
+      "applicable_types": [
+        "exploration"
+      ],
+      "grade_intro": "7",
+      "examples": [
+        {
+          "scenario": "新定义运算a*b=a^2-ab",
+          "method": "按定义代入计算即可"
+        }
+      ],
+      "ai_prompt_hint": "仔细看这个新定义，它的规则是什么？按规则一步步来"
+    }
+  ]
+}

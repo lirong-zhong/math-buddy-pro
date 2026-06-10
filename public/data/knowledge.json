@@ -1,0 +1,383 @@
+{
+  "grades": [
+    {
+      "grade": "5",
+      "semester": "下",
+      "units": [
+        {
+          "id": "g5x_u1",
+          "name": "分数加减法",
+          "formulas": [
+            {
+              "id": "f001",
+              "title": "同分母分数加法",
+              "latex": "\\frac{a}{c}+\\frac{b}{c}=\\frac{a+b}{c}",
+              "text": "a/c + b/c = (a+b)/c",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">c</span></span> + <span class=\"formula-frac\"><span class=\"num\">b</span><span class=\"den\">c</span></span> = <span class=\"formula-frac\"><span class=\"num\">a+b</span><span class=\"den\">c</span></span>",
+              "rules": ["分母不变", "分子相加", "结果能约分要约分"],
+              "related_topics": ["同分母分数加减法", "分数加减法"],
+              "example": "1/4 + 2/4 = 3/4",
+              "tip": "分母相同，直接加分子"
+            },
+            {
+              "id": "f002",
+              "title": "同分母分数减法",
+              "latex": "\\frac{a}{c}-\\frac{b}{c}=\\frac{a-b}{c}",
+              "text": "a/c - b/c = (a-b)/c",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">c</span></span> − <span class=\"formula-frac\"><span class=\"num\">b</span><span class=\"den\">c</span></span> = <span class=\"formula-frac\"><span class=\"num\">a−b</span><span class=\"den\">c</span></span>",
+              "rules": ["分母不变", "分子相减", "结果能约分要约分"],
+              "related_topics": ["同分母分数加减法", "分数加减法"],
+              "example": "5/6 - 2/6 = 3/6 = 1/2",
+              "tip": "分母相同，直接减分子"
+            },
+            {
+              "id": "f003",
+              "title": "异分母分数加减法",
+              "latex": "\\frac{a}{b}\\pm\\frac{c}{d}=\\frac{ad\\pm bc}{bd}",
+              "text": "a/b ± c/d → 先通分，再加减",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> ± <span class=\"formula-frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> → 先通分再计算",
+              "rules": ["先找最小公倍数通分", "再按同分母规则加减", "结果要约分"],
+              "related_topics": ["异分母分数加减法", "分数加减法", "分数加减混合运算"],
+              "example": "1/3 + 1/4 = 4/12 + 3/12 = 7/12",
+              "tip": "不同分母先通分，变成同分母再算"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u2",
+          "name": "长方体（一）",
+          "formulas": [
+            {
+              "id": "f004",
+              "title": "长方体棱长总和",
+              "latex": "L = 4(a+b+h)",
+              "text": "L = 4×(长+宽+高)",
+              "html": "L = 4 × (a + b + h)",
+              "rules": ["长方体有12条棱", "分为3组，每组4条", "4×(长+宽+高)"],
+              "related_topics": ["长方体正方体的认识", "表面积", "长方体（一）"],
+              "example": "长3cm宽2cm高4cm → L=4×(3+2+4)=36cm",
+              "tip": "12条棱分3组，每组4条相等"
+            },
+            {
+              "id": "f005",
+              "title": "正方体棱长总和",
+              "latex": "L = 12a",
+              "text": "L = 12×棱长",
+              "html": "L = 12a",
+              "rules": ["正方体有12条棱", "每条棱都相等", "直接12×棱长"],
+              "related_topics": ["长方体正方体的认识", "表面积", "长方体（一）"],
+              "example": "棱长5cm → L=12×5=60cm",
+              "tip": "12条一样长的棱"
+            },
+            {
+              "id": "f006",
+              "title": "长方体表面积",
+              "latex": "S = 2(ab+ah+bh)",
+              "text": "S = 2×(长×宽 + 长×高 + 宽×高)",
+              "html": "S = 2(ab + ah + bh)",
+              "rules": ["6个面分3对", "对面面积相等", "2×(上面+前面+侧面)"],
+              "related_topics": ["表面积", "展开图", "长方体（一）"],
+              "example": "长4宽3高2 → S=2×(12+8+6)=52cm²",
+              "tip": "三对面：上下、前后、左右"
+            },
+            {
+              "id": "f007",
+              "title": "正方体表面积",
+              "latex": "S = 6a^2",
+              "text": "S = 6×棱长²",
+              "html": "S = 6a<sup>2</sup>",
+              "rules": ["6个面完全相同", "每面都是正方形", "6×棱长×棱长"],
+              "related_topics": ["表面积", "展开图", "长方体（一）"],
+              "example": "棱长3cm → S=6×9=54cm²",
+              "tip": "6个相同的正方形面"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u3",
+          "name": "分数乘法",
+          "formulas": [
+            {
+              "id": "f008",
+              "title": "分数乘整数",
+              "latex": "\\frac{a}{b} \\times c = \\frac{ac}{b}",
+              "text": "(a/b) × c = ac/b",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> × c = <span class=\"formula-frac\"><span class=\"num\">a×c</span><span class=\"den\">b</span></span>",
+              "rules": ["分子乘整数", "分母不变", "能约分先约分再乘"],
+              "related_topics": ["分数乘整数", "分数乘法", "分数乘法应用题"],
+              "example": "2/3 × 4 = 8/3 = 2又2/3",
+              "tip": "分子×整数，分母不变"
+            },
+            {
+              "id": "f009",
+              "title": "分数乘分数",
+              "latex": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}",
+              "text": "(a/b) × (c/d) = ac/bd",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> × <span class=\"formula-frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> = <span class=\"formula-frac\"><span class=\"num\">a×c</span><span class=\"den\">b×d</span></span>",
+              "rules": ["分子×分子", "分母×分母", "先约分再乘更简便"],
+              "related_topics": ["分数乘分数", "分数乘法", "分数乘法应用题"],
+              "example": "2/3 × 3/5 = 6/15 = 2/5",
+              "tip": "分子乘分子，分母乘分母，先约分更简便"
+            },
+            {
+              "id": "f010",
+              "title": "求一个数的几分之几",
+              "latex": "\\text{部分量} = \\text{单位1} \\times \\frac{a}{b}",
+              "text": "部分量 = 单位1 × (a/b)",
+              "html": "部分量 = 单位\"1\" × <span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span>",
+              "rules": ["找出单位\"1\"", "用乘法计算", "谁的几分之几，谁就是单位1"],
+              "related_topics": ["分数乘法应用题", "分数乘法"],
+              "example": "全班40人，男生占3/5，男生=40×3/5=24人",
+              "tip": "关键词「的」前面是单位1"
+            },
+            {
+              "id": "f011",
+              "title": "连续分数乘法",
+              "latex": "\\frac{a}{b} \\times \\frac{c}{d} \\times \\frac{e}{f} = \\frac{ace}{bdf}",
+              "text": "(a/b) × (c/d) × (e/f) = ace/bdf",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> × <span class=\"formula-frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> × <span class=\"formula-frac\"><span class=\"num\">e</span><span class=\"den\">f</span></span> = <span class=\"formula-frac\"><span class=\"num\">a×c×e</span><span class=\"den\">b×d×f</span></span>",
+              "rules": ["所有分子相乘", "所有分母相乘", "先交叉约分再乘"],
+              "related_topics": ["分数乘法", "分数乘分数"],
+              "example": "1/2 × 2/3 × 3/4 = 6/24 = 1/4",
+              "tip": "可以交叉约分，更快更简便"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u4",
+          "name": "长方体（二）",
+          "formulas": [
+            {
+              "id": "f012",
+              "title": "长方体体积",
+              "latex": "V = abh",
+              "text": "V = 长×宽×高",
+              "html": "V = a × b × h",
+              "rules": ["体积=长×宽×高", "单位是立方单位", "注意单位统一"],
+              "related_topics": ["长方体体积", "体积与容积", "长方体（二）"],
+              "example": "长5宽3高2 → V=5×3×2=30cm³",
+              "tip": "三条不同的棱相乘"
+            },
+            {
+              "id": "f013",
+              "title": "正方体体积",
+              "latex": "V = a^3",
+              "text": "V = 棱长³",
+              "html": "V = a<sup>3</sup>",
+              "rules": ["棱长×棱长×棱长", "也叫棱长的立方", "注意a³≠3a"],
+              "related_topics": ["正方体体积", "体积与容积", "长方体（二）"],
+              "example": "棱长4cm → V=4³=64cm³",
+              "tip": "棱长自乘3次"
+            },
+            {
+              "id": "f014",
+              "title": "底面积与体积",
+              "latex": "V = Sh",
+              "text": "V = 底面积×高",
+              "html": "V = S<sub>底</sub> × h",
+              "rules": ["底面积=长×宽", "适用于所有柱体", "V=底面积×高"],
+              "related_topics": ["长方体体积", "正方体体积", "体积与容积", "长方体（二）"],
+              "example": "底面积12cm²，高5cm → V=12×5=60cm³",
+              "tip": "知道底面积和高就能算体积"
+            },
+            {
+              "id": "f015",
+              "title": "容积单位换算",
+              "latex": "1L = 1dm^3,\\quad 1mL = 1cm^3",
+              "text": "1升=1立方分米，1毫升=1立方厘米",
+              "html": "1L = 1dm<sup>3</sup>，1mL = 1cm<sup>3</sup>",
+              "rules": ["1升=1000毫升", "1升=1立方分米", "1毫升=1立方厘米"],
+              "related_topics": ["体积单位换算", "体积与容积", "长方体（二）"],
+              "example": "2.5L = 2500mL = 2500cm³",
+              "tip": "升→立方分米，毫升→立方厘米"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u5",
+          "name": "分数除法",
+          "formulas": [
+            {
+              "id": "f016",
+              "title": "分数除以整数",
+              "latex": "\\frac{a}{b} \\div c = \\frac{a}{bc}",
+              "text": "(a/b) ÷ c = a/(b×c)",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> ÷ c = <span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b×c</span></span>",
+              "rules": ["分子不变", "分母乘以除数", "等于乘以除数的倒数"],
+              "related_topics": ["分数除以整数", "分数除法", "分数除法应用题"],
+              "example": "2/3 ÷ 4 = 2/12 = 1/6",
+              "tip": "÷整数 = ×整数的倒数"
+            },
+            {
+              "id": "f017",
+              "title": "整数除以分数",
+              "latex": "a \\div \\frac{b}{c} = a \\times \\frac{c}{b}",
+              "text": "a ÷ (b/c) = a × (c/b)",
+              "html": "a ÷ <span class=\"formula-frac\"><span class=\"num\">b</span><span class=\"den\">c</span></span> = a × <span class=\"formula-frac\"><span class=\"num\">c</span><span class=\"den\">b</span></span>",
+              "rules": ["除以一个分数", "等于乘这个分数的倒数", "颠倒分子分母"],
+              "related_topics": ["整数除以分数", "分数除法", "分数除法应用题"],
+              "example": "6 ÷ 2/3 = 6 × 3/2 = 9",
+              "tip": "÷分数 = ×倒数（翻转）"
+            },
+            {
+              "id": "f018",
+              "title": "分数除以分数",
+              "latex": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}",
+              "text": "(a/b) ÷ (c/d) = (a/b) × (d/c)",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> ÷ <span class=\"formula-frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> = <span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> × <span class=\"formula-frac\"><span class=\"num\">d</span><span class=\"den\">c</span></span>",
+              "rules": ["除以一个分数", "等于乘它的倒数", "把除号变乘号，除数颠倒"],
+              "related_topics": ["分数除以分数", "分数除法", "分数除法应用题"],
+              "example": "3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8",
+              "tip": "除号变乘号，后面分数上下翻转"
+            },
+            {
+              "id": "f019",
+              "title": "除法与倒数",
+              "latex": "a \\div b = a \\times \\frac{1}{b}",
+              "text": "a ÷ b = a × (1/b)",
+              "html": "a ÷ b = a × <span class=\"formula-frac\"><span class=\"num\">1</span><span class=\"den\">b</span></span>",
+              "rules": ["除以一个数等于乘它的倒数", "这是分数除法的核心", "0没有倒数"],
+              "related_topics": ["倒数", "分数除法"],
+              "example": "8 ÷ 4 = 8 × 1/4 = 2",
+              "tip": "除法的本质就是乘倒数"
+            },
+            {
+              "id": "f020",
+              "title": "倒数的定义",
+              "latex": "\\frac{a}{b} \\times \\frac{b}{a} = 1",
+              "text": "(a/b) × (b/a) = 1",
+              "html": "<span class=\"formula-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> × <span class=\"formula-frac\"><span class=\"num\">b</span><span class=\"den\">a</span></span> = 1",
+              "rules": ["互为倒数的两个数相乘等于1", "分子分母颠倒就是倒数", "1的倒数是1，0没有倒数"],
+              "related_topics": ["倒数", "分数除法"],
+              "example": "3/5的倒数是5/3，因为3/5×5/3=1",
+              "tip": "分子分母互换位置"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u6",
+          "name": "确定位置",
+          "formulas": [
+            {
+              "id": "f021",
+              "title": "数对表示位置",
+              "latex": "(\\text{列}, \\text{行})",
+              "text": "数对(列, 行)",
+              "html": "数对 (列, 行)",
+              "rules": ["先写列号，再写行号", "列从左往右数", "行从下往上数"],
+              "related_topics": ["用方向和距离确定位置", "在方格纸上确定位置", "确定位置"],
+              "example": "第3列第2行 → (3, 2)",
+              "tip": "先列后行，不要搞反"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u7",
+          "name": "用方程解决问题",
+          "formulas": [
+            {
+              "id": "f022",
+              "title": "路程公式",
+              "latex": "s = v \\times t",
+              "text": "路程 = 速度 × 时间",
+              "html": "路程 = 速度 × 时间",
+              "rules": ["s=vt", "v=s÷t", "t=s÷v", "三量知二求一"],
+              "related_topics": ["列方程解实际问题", "相遇问题", "用方程解决问题"],
+              "example": "速度60km/h，时间2h → 路程=60×2=120km",
+              "tip": "路=速×时，记住一个推其他两个"
+            },
+            {
+              "id": "f023",
+              "title": "总价公式",
+              "latex": "\\text{总价} = \\text{单价} \\times \\text{数量}",
+              "text": "总价 = 单价 × 数量",
+              "html": "总价 = 单价 × 数量",
+              "rules": ["总价=单价×数量", "单价=总价÷数量", "数量=总价÷单价"],
+              "related_topics": ["列方程解实际问题", "用方程解决问题"],
+              "example": "单价5元，买3个 → 总价=5×3=15元",
+              "tip": "三个量知道两个就能求第三个"
+            },
+            {
+              "id": "f024",
+              "title": "工作总量公式",
+              "latex": "W = e \\times t",
+              "text": "工作总量 = 工作效率 × 工作时间",
+              "html": "工作总量 = 工作效率 × 工作时间",
+              "rules": ["总量=效率×时间", "效率=总量÷时间", "时间=总量÷效率"],
+              "related_topics": ["列方程解实际问题", "用方程解决问题"],
+              "example": "每小时做5个，做4小时 → 总量=5×4=20个",
+              "tip": "和路程公式结构相同"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u8",
+          "name": "数据的表示和分析",
+          "formulas": [
+            {
+              "id": "f025",
+              "title": "平均数",
+              "latex": "\\bar{x} = \\frac{\\text{总数量}}{\\text{总份数}}",
+              "text": "平均数 = 总数量 ÷ 总份数",
+              "html": "平均数 = 总数量 ÷ 总份数",
+              "rules": ["先求总和", "再除以个数", "平均数不一定是整数"],
+              "related_topics": ["平均数的再认识", "复式条形统计图", "数据的表示和分析"],
+              "example": "3个数：80, 90, 100 → 平均数=(80+90+100)÷3=90",
+              "tip": "移多补少，把多的匀给少的"
+            }
+          ]
+        },
+        {
+          "id": "g5x_u9",
+          "name": "单位换算（总复习）",
+          "formulas": [
+            {
+              "id": "f026",
+              "title": "长度单位换算",
+              "latex": "1m=10dm=100cm=1000mm",
+              "text": "1米=10分米=100厘米=1000毫米",
+              "html": "1米 = 10分米 = 100厘米 = 1000毫米",
+              "rules": ["米→分米×10", "分米→厘米×10", "厘米→毫米×10", "相邻单位进率10"],
+              "related_topics": ["体积单位换算", "长方体（二）"],
+              "example": "2.5m = 25dm = 250cm",
+              "tip": "长度单位相邻进率是10"
+            },
+            {
+              "id": "f027",
+              "title": "面积单位换算",
+              "latex": "1m^2=100dm^2=10000cm^2",
+              "text": "1平方米=100平方分米=10000平方厘米",
+              "html": "1m<sup>2</sup> = 100dm<sup>2</sup> = 10000cm<sup>2</sup>",
+              "rules": ["平方米→平方分米×100", "平方分米→平方厘米×100", "相邻进率100"],
+              "related_topics": ["体积单位换算", "表面积"],
+              "example": "3m² = 300dm² = 30000cm²",
+              "tip": "面积单位相邻进率是100（10²）"
+            },
+            {
+              "id": "f028",
+              "title": "体积单位换算",
+              "latex": "1m^3=1000dm^3=1000000cm^3",
+              "text": "1立方米=1000立方分米=1000000立方厘米",
+              "html": "1m<sup>3</sup> = 1000dm<sup>3</sup> = 1000000cm<sup>3</sup>",
+              "rules": ["立方米→立方分米×1000", "立方分米→立方厘米×1000", "相邻进率1000"],
+              "related_topics": ["体积单位换算", "长方体体积", "正方体体积", "长方体（二）"],
+              "example": "2m³ = 2000dm³ = 2000000cm³",
+              "tip": "体积单位相邻进率是1000（10³）"
+            },
+            {
+              "id": "f029",
+              "title": "容积单位换算",
+              "latex": "1L=1000mL=1dm^3",
+              "text": "1升=1000毫升，1升=1立方分米，1毫升=1立方厘米",
+              "html": "1L = 1000mL，1L = 1dm<sup>3</sup>，1mL = 1cm<sup>3</sup>",
+              "rules": ["1升=1000毫升", "1升=1立方分米", "1毫升=1立方厘米"],
+              "related_topics": ["体积单位换算", "体积与容积", "长方体（二）"],
+              "example": "3.5L = 3500mL = 3500cm³",
+              "tip": "升↔立方分米，毫升↔立方厘米"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

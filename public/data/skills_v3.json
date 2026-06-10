@@ -1,0 +1,356 @@
+{
+  "version": "3.0",
+  "skills": [
+    {
+      "id": "SK-001",
+      "name": "整体代换",
+      "description": "将复杂表达式看作一个整体进行替换",
+      "category": "代数技能",
+      "difficulty_range": [
+        2,
+        6
+      ],
+      "applicable_grades": [
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "已知a+b=3, 求(a+b)²+2(a+b)-1 → 令t=a+b=3, 求t²+2t-1=14",
+      "common_traps": [
+        "代换后忘记回代",
+        "整体的范围限制"
+      ],
+      "related_strategies": [
+        "ST-001"
+      ]
+    },
+    {
+      "id": "SK-002",
+      "name": "换元法",
+      "description": "引入新变量简化复杂方程或表达式",
+      "category": "代数技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "8",
+        "9"
+      ],
+      "example": "解(x²+x)²-4(x²+x)-12=0 → 令t=x²+x, 解t²-4t-12=0",
+      "common_traps": [
+        "换元后忘记检验范围",
+        "新变量的取值范围未考虑"
+      ],
+      "related_strategies": [
+        "ST-001"
+      ]
+    },
+    {
+      "id": "SK-003",
+      "name": "裂项求和",
+      "description": "将通项分解为两项之差实现相邻项抵消",
+      "category": "代数技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "求1/(1*2)+1/(2*3)+...+1/(n(n+1))=n/(n+1)",
+      "common_traps": [
+        "裂项方向搞错",
+        "首尾项漏算"
+      ],
+      "related_strategies": [
+        "ST-001",
+        "ST-009"
+      ]
+    },
+    {
+      "id": "SK-004",
+      "name": "构造法",
+      "description": "构造辅助图形、方程或表达式来解决问题",
+      "category": "综合技能",
+      "difficulty_range": [
+        4,
+        6
+      ],
+      "applicable_grades": [
+        "8",
+        "9"
+      ],
+      "example": "证明线段相等→构造全等三角形",
+      "common_traps": [
+        "构造不当导致复杂化",
+        "忽略构造元素的存在性"
+      ],
+      "related_strategies": [
+        "ST-010"
+      ]
+    },
+    {
+      "id": "SK-005",
+      "name": "分类讨论",
+      "description": "根据条件的不同情况分别讨论求解",
+      "category": "逻辑技能",
+      "difficulty_range": [
+        2,
+        6
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "|x-1|=3 → x-1=3或x-1=-3 → x=4或x=-2",
+      "common_traps": [
+        "分类不完整（遗漏情况）",
+        "分类标准不统一",
+        "忘记合并最终结果"
+      ],
+      "related_strategies": [
+        "ST-003"
+      ]
+    },
+    {
+      "id": "SK-006",
+      "name": "数形结合",
+      "description": "利用图形直观理解代数关系或用代数方法解决几何问题",
+      "category": "综合技能",
+      "difficulty_range": [
+        2,
+        6
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "在数轴上表示|x-2|+|x+1|的最小值→两点间距离=3",
+      "common_traps": [
+        "画图不准确导致判断错误",
+        "忽视图形的精确性"
+      ],
+      "related_strategies": [
+        "ST-002"
+      ]
+    },
+    {
+      "id": "SK-007",
+      "name": "几何变换",
+      "description": "利用平移、旋转、对称等变换解决几何问题",
+      "category": "几何技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "将三角形绕某点旋转60度，利用旋转不变性求角度",
+      "common_traps": [
+        "变换前后对应元素搞混",
+        "忽略变换的不变量"
+      ],
+      "related_strategies": [
+        "ST-001",
+        "ST-010"
+      ]
+    },
+    {
+      "id": "SK-008",
+      "name": "方程思想",
+      "description": "将未知量设为x，根据等量关系列方程求解",
+      "category": "代数技能",
+      "difficulty_range": [
+        1,
+        5
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "甲比乙大3岁，三年前甲是乙的2倍→设乙现在x岁列方程",
+      "common_traps": [
+        "等量关系找错",
+        "设未知数不当"
+      ],
+      "related_strategies": [
+        "ST-005"
+      ]
+    },
+    {
+      "id": "SK-009",
+      "name": "函数思想",
+      "description": "用函数的观点分析变量之间的关系",
+      "category": "代数技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "8",
+        "9"
+      ],
+      "example": "求y=x^2-4x+3的最小值→配方得y=(x-2)^2-1,最小值-1",
+      "common_traps": [
+        "定义域限制忘考虑",
+        "增减性判断错误"
+      ],
+      "related_strategies": [
+        "ST-004"
+      ]
+    },
+    {
+      "id": "SK-010",
+      "name": "归纳猜想",
+      "description": "从特殊到一般，发现规律并验证",
+      "category": "逻辑技能",
+      "difficulty_range": [
+        2,
+        6
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "1=1^2, 1+3=2^2, 1+3+5=3^2 → 猜想前n个奇数之和=n^2",
+      "common_traps": [
+        "只归纳不验证",
+        "样本量不够导致错误猜想"
+      ],
+      "related_strategies": [
+        "ST-009"
+      ]
+    },
+    {
+      "id": "SK-011",
+      "name": "逆向思维",
+      "description": "从结论出发逆推条件或用反证法",
+      "category": "逻辑技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "证明根号2是无理数→反证法：假设是有理数推出矛盾",
+      "common_traps": [
+        "逆推逻辑链断裂",
+        "反证法假设不当"
+      ],
+      "related_strategies": [
+        "ST-001"
+      ]
+    },
+    {
+      "id": "SK-012",
+      "name": "最值分析",
+      "description": "利用配方、不等式、几何意义等求最大/最小值",
+      "category": "综合技能",
+      "difficulty_range": [
+        3,
+        6
+      ],
+      "applicable_grades": [
+        "8",
+        "9"
+      ],
+      "example": "y=x^2-6x+11=(x-3)^2+2>=2,最小值2（x=3时取到）",
+      "common_traps": [
+        "忽略取等条件",
+        "定义域外的极值"
+      ],
+      "related_strategies": [
+        "ST-004"
+      ]
+    },
+    {
+      "id": "SK-013",
+      "name": "模型建立",
+      "description": "将实际问题抽象为数学模型",
+      "category": "应用技能",
+      "difficulty_range": [
+        2,
+        5
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "行程问题:路程=速度*时间; 浓度问题:溶质/溶液=浓度",
+      "common_traps": [
+        "忽略实际限制条件",
+        "单位不统一"
+      ],
+      "related_strategies": [
+        "ST-006"
+      ]
+    },
+    {
+      "id": "SK-014",
+      "name": "数据分析",
+      "description": "运用统计量（平均数、中位数、方差等）分析数据特征",
+      "category": "统计技能",
+      "difficulty_range": [
+        1,
+        4
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "比较两组数据的稳定性→计算方差，方差小的更稳定",
+      "common_traps": [
+        "混淆平均数和中位数的适用场景",
+        "样本不具代表性"
+      ],
+      "related_strategies": [
+        "ST-007"
+      ]
+    },
+    {
+      "id": "SK-015",
+      "name": "阅读提取",
+      "description": "从较长的文字或图表中准确提取数学信息",
+      "category": "应用技能",
+      "difficulty_range": [
+        2,
+        5
+      ],
+      "applicable_grades": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "example": "从新闻材料中提取相关数据，建立方程解决问题",
+      "common_traps": [
+        "遗漏隐含条件",
+        "混淆已知和未知"
+      ],
+      "related_strategies": [
+        "ST-006"
+      ]
+    }
+  ]
+}
